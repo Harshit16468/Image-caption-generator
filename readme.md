@@ -49,9 +49,6 @@ This repository contains code for an image caption generator using deep learning
 ## Files
 
 - `training_caption.ipynb`: IPython Notebook containing the complete code for the image caption generator.
-- `features.p`: Pickle file containing precomputed image features.
-- `tokenizer.p`: Pickle file containing tokenizer object for text preprocessing.
-- `models/model.keras`: Keras model file containing the trained image caption generator model.
 
 ## Workflow
 
@@ -59,13 +56,6 @@ This repository contains code for an image caption generator using deep learning
 
 Open `image_caption_generator.ipynb` in Jupyter Notebook and execute each cell to reproduce the entire workflow of the image caption generator.
 
-### Generating Captions
-
-To generate captions for images using the pretrained model:
-
-1. Load the model from `model.keras`.
-2. Load `features.pkl` and `tokenizer.pkl`.
-3. Use the model to generate captions for new images.
 
 ## Example Images
 
